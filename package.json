@@ -1,0 +1,14 @@
+{
+  "name": "myproject",
+  "version": "1.0.0",
+  "description": "A barebones Node.js app using [Express 4](http://expressjs.com/).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sadsa",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

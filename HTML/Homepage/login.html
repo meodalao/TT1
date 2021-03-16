@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <dependencies>
+  <dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-actuator</artifactId>
+  </dependency>
+  <dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-web</artifactId>
+  </dependency>
+  <plugin>
+  <artifactId>maven-assembly-plugin</artifactId>
+  <version>3.0.0</version>
+  <configuration>
+    <descriptorRefs>
+      <descriptorRef>jar-with-dependencies</descriptorRef>
+    </descriptorRefs>
+    <finalName>helloworld</finalName>
+  </configuration>
+</plugin>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="C:\Users\anhtuan\Documents\MyProject\CSS\stylee2.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <title>Sign in</title>
+  </head>
+  <header>
+    <div class="fixed-top" >
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="C:\Users\anhtuan\Documents\MyProject\HTML\Homepage\index.ejs"style="font-size:40px;color:Dark;text-shadow:2px 2px 4px #000000;" alt="Local Brand"> D N T N</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+      <div id="nav-search-dropdown-card">
+  </div>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="XXX" aria-label="">
+        <button class="btn btn-outline-success my-2 my-sm-0" onclick="window.location.href='C:\Users\anhtuan\Documents\MyProject\HTML\Homepage\shoppingcart.ejs';">Search</button>
+      </form>
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <img src="https://images.vexels.com/media/users/3/134874/isolated/preview/adc93a52c94a8ae0b99862159151967c-vietnam-national-flag-by-vexels.png" max width="100px" alt="">
+              </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <div class="dropdown-divider" ></div>
+              <a class="dropdown-item" href="../../Homepage/index.ejs">Homepage</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="../../Homepage/shoppingcart.ejs">Your List</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="../../Homepage/hinh1.ejs">About us </a>
+              <form class="btn btn-outline-success my-2 my-sm-0" action="index.html" method="post">
+                <a href="C:\Users\anhtuan\Documents\MyProject\HTML\Homepage\login.html"class="" tabindex="-1" aria-disabled="true">signin</a>
+                <a href="C:\Users\anhtuan\Documents\MyProject\HTML\Homepage\signout.html"class="" tabindex="-1" aria-disabled="true">signup</a>
+              </form>
+            </div>
+          </li>
+    </nav>
+    </div>
+
+  </header>
+  <body>
+      <div class="signin">
+        <div class="img">
+            <a href"../../Homepage/index1.ejs"><img src="C:\Users\anhtuan\Documents\MyProject\Image\wwe.jpg" alt=""></a>
+        </div>
+    <div class="p-3 mb-2 bg-dark text-white">
+            <h2>Sign in</h2>
+            </div>
+        <form >
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+            <h5>Don't have account <a href="../../Homepage/signout.ejs">Create account</a> </h5>
+          </div>
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Remember me</label>
+          </div>
+          <a class="btn btn-primary" href="../../Homepage/index1.ejs">Log in</a>
+        </form>
+      </div>
+  </body>
+</html>

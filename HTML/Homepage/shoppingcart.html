@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../../CSS/style.CSS">
+    <link rel="stylesheet" href="../../CSS/style1.css">
+    <link rel="stylesheet" href="../../CSS/stylespc.css">
+          <link rel="icon" href"../../Image/wwe.jpg">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <title>Meomeo</title>
+    <header>
+  </head>
+      <div class="fixed-top" >
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="C:\Users\anhtuan\Documents\MyProject\HTML\Homepage\index.html"style="font-size:40px;color:Dark;text-shadow:2px 2px 4px #000000;" alt="Local Brand"> D N T N</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        <div id="nav-search-dropdown-card">
+    </div>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="XXX" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="window.location.href='C:\Users\anhtuan\Documents\MyProject\HTML\Homepage\asd.html';">Search</button>
+        </form>
+           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <img src="https://images.vexels.com/media/users/3/134874/isolated/preview/adc93a52c94a8ae0b99862159151967c-vietnam-national-flag-by-vexels.png" max width="100px" alt="">
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <div class="dropdown-divider" ></div>
+                  <a class="dropdown-item" href="../../Homepage/index.html">Homepage</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="../../Homepage/your list.html">Your List</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="../../Homepage/shoppingcart.html">Shopping Cart</a>
+                  <form class="btn btn-outline-success my-2 my-sm-0" action="index.html" method="post">
+                    <a href="../../Homepage/login.html"class="" tabindex="-1" aria-disabled="true">signin</a>
+                    <a href="../../Homepage/signout.html"class="" tabindex="-1" aria-disabled="true">signup</a>
+                </form>
+                <hr>
+              </div>
+            </li>
+          </ul>
+
+      </nav>
+      </div>
+    </header>
+    <div class="alert alert-dark"  role="alert">
+  <button id="cart">
+                            <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                            Your Cart
+                        </button>
+                        <div id="myModal" class="modal">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Shopping Cart</h5>
+                                    <span class="close">&times;</span>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="cart-row">
+                                        <span class="cart-item cart-header cart-column">Products</span>
+                                        <span class="cart-price cart-header cart-column">Price</span>
+                                        <span class="cart-quantity cart-header cart-column">Amount</span>
+                                    </div>
+                                    <div class="cart-items">
+
+                                    </div>
+                                    <div class="cart-total">
+                                        <strong class="cart-total-title">Total:</strong>
+                                        <span class="cart-total-price">0VNĐ</span>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary close-footer">Close</button>
+                                    <button type="button" class="btn btn-primary order">Cash out</button>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+  </div>
+      <body>
+    <section class="wrapper">
+       <div class="products">
+           <ul>
+               <li class="main-product">
+                   <div class="img-product">
+                       <img class="img-prd"
+                           src="../../Image/s1.png"
+                           alt="">
+                   </div>
+                   <div class="content-product">
+                       <h3 class="content-product-h3">ao thun cap </h3>
+                       <div class="content-product-deltals">
+                           <div class="price">
+                               <span class="money">300000đ</span>
+                           </div>
+                           <button type="button" class="btn btn-cart">Add to cart</button>
+                       </div>
+                   </div>
+               </li>
+               <li class="main-product">
+                   <div class="img-product">
+                       <img class="img-prd"
+                           src="../../Image/s2.png"
+                           alt="">
+                   </div>
+                   <div class="content-product">
+                       <h3 class="content-product-h3">Ao thun den</h3>
+                       <div class="content-product-deltals">
+                           <div class="price">
+                               <span class="money">150000đ</span>
+                           </div>
+                           <button type="button" class="btn btn-cart">Add to cart</button>
+                       </div>
+                   </div>
+               </li>
+               <li class="main-product">
+                   <div class="img-product">
+                       <img class="img-prd"
+                           src="../../Image/s10.png"
+                           alt="">
+                   </div>
+                   <div class="content-product">
+                       <h3 class="content-product-h3">Áo sơ mi nam King168 cao cấp SMY098
+</h3>
+                       <div class="content-product-deltals">
+                           <div class="price">
+                               <span class="money">118500đ
+</span>
+                           </div>
+                           <button type="button" class="btn btn-cart">Add to cart</button>
+                       </div>
+                   </div>
+               </li>
+               <li class="main-product no-margin">
+                   <div class="img-product">
+                       <img class="img-prd"
+                           src="../../Image/h6.png"
+                           alt="">
+                   </div>
+                   <div class="content-product">
+                       <h3 class="content-product-h3">Áo Sơ Mi Đen Cổ Tàu Chất Liệu Lụa Cao Cấp VNXK</h3>
+                       <div class="content-product-deltals">
+                           <div class="price">
+                               <span class="money">299000đ</span>
+                           </div>
+                           <button type="button" class="btn btn-cart">Add to cart</button>
+                       </div>
+                   </div>
+               </li>
+               <li class="main-product">
+                   <div class="img-product">
+                       <img class="img-prd"
+                           src="../../Image/s5.png"
+                           alt="">
+                   </div>
+                   <div class="content-product">
+                       <h3 class="content-product-h3">Áo Sơ Mi Trắng Cổ Tàu Chất Liệu Lụa Cao Cấp VNXK
+                       </h3>
+                       <div class="content-product-deltals">
+                           <div class="price">
+                               <span class="money">299000đ</span>
+                           </div>
+                           <button type="button" class="btn btn-cart">Add to cart</button>
+                       </div>
+                   </div>
+               </li>
+               <li class="main-product">
+                   <div class="img-product">
+                       <img class="img-prd"
+                           src="../../Image/s7.png"
+                           alt="">
+                   </div>
+                   <div class="content-product">
+                       <h3 class="content-product-h3">Sơ mi nam dài tay sọc đỏ</h3>
+                       <div class="content-product-deltals">
+                           <div class="price">
+                               <span class="money">210000đ</span>
+                           </div>
+                           <button type="button" class="btn btn-cart">Add to cart</button>
+                       </div>
+                   </div>
+               </li>
+               <li class="main-product">
+                     <div class="img-product">
+                         <img class="img-prd"
+                             src="C:\Users\anhtuan\Documents\MyProject\Image\s8.png"
+                             alt="">
+                     </div>
+                     <div class="content-product">
+                         <h3 class="content-product-h3">Áo Sơ Mi Caro Flannel Vàng</h3>
+                         <div class="content-product-deltals">
+                             <div class="price">
+                                 <span class="money">129500đ</span>
+                             </div>
+                             <button type="button" class="btn btn-cart">Add to cart </button>
+                         </div>
+                     </div>
+                 </li>
+                 <li class="main-product no-margin">
+                     <div class="img-product">
+                         <img class="img-prd"
+                             src="C:\Users\anhtuan\Documents\MyProject\Image\s9.png"
+                             alt="">
+                     </div>
+                     <div class="content-product">
+                         <h3 class="content-product-h3">Sơ mi nam chất lụa dài tay cao cấp hoa văn đỏ hoa hồng</h3>
+                         <div class="content-product-deltals">
+                             <div class="price">
+                                 <span class="money">150000đ</span>
+                             </div>
+                             <button type="button" class="btn btn-cart">Add to cart</button>
+                         </div>
+                     </div>
+                 </li>
+             </ul>
+         </div>
+     </section>
+                      <hr>
+                      <div class="footer">
+                        <hr>
+                        <img src="C:\Users\anhtuan\Documents\MyProject\Image\ấ.JPG" max width="150px" class="img-fluid" alt="Responsive image">
+                        <h1>MÔ TẢ SẢN PHẨM</h1>
+                         <h1>CHÚNG TÔI LÀ AI</h1>
+                        <h2>Tay có nghĩa là đôi bàn tay</h2>
+                        <h2>TAY® là giấc mơ chúng tôi tạo ra sản phẩm bằng đôi bàn tay.</h2>
+                          <ul>
+                            <li>Khi quý khách hàng mua sản phẩm làm bằng phương pháp thủ công, quý khách không chỉ mua vật phẩm mà còn là thời gian của nghệ nhân và khoảnh khắc của niềm vui.</li>
+                            <li>Quý khách không chỉ mua hàng. Quý khách mua một phần của trái tim, tâm hồn và khoảnh khắc của người khác.</li>
+                          </ul>
+                       <h1>TIÊU CHÍ CỦA CHÚNG TÔI</h1>
+                       <ul>
+                        <li>  Vải và nguyên phụ liệu chất lượng cao</li>
+                        <li>  Được thiết kế bằng trái tim</li>
+                        <li>Được may bằng tình yêu</li>
+                        <li>Được thêu bằng tay</li>
+                        <li>Được đóng gói với sự cân nhắc về môi trường</li>
+                       </ul>
+                       <h1>SẢN PHẨM CỦA CHÚNG TÔI</h1>
+                       <ul>
+                        <li>Phù hợp cho cả gia đình</li>
+                        <li>Thiết kế rộng rãi</li>
+                        <li>Sản phẩm được thêu tay</li>
+                        <li>Phụ kiện được làm bằng phương pháp thủ công</li>
+                       </ul>
+                      </div>
+                    </div>
+                    <script src="C:\Users\anhtuan\Documents\MyProject\Javascript\asdasd.js">
+                    </script>
+  </body>
+</html>
